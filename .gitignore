@@ -1,5 +1,7 @@
 # 環境檔案
-.*env 
+/*env 
 # 資料檔案
-./.*data.*
-./.*DATA.*
+./*data*
+./*DATA*
+
+/NomralizeTime/*.data
