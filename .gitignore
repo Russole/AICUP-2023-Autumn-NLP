@@ -1,7 +1,7 @@
 # 環境檔案
 /*env 
 # 資料檔案
-./*data*
-./*DATA*
+*DATASET
 
-/NomralizeTime/*.data
+# 程式資料
+NormalizeTime/*
