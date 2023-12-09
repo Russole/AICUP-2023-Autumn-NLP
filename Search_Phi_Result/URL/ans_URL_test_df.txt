@@ -1,0 +1,5 @@
+fid	idx	text	label	label_text
+1975	4038	For a full list of the 238 mutations tested, please see http://www.sequenom.comlhome/productsservices/genetic/analysis/applications/oncocartal/	22	http
+2483	10418	For a full list of the mutations tested, please see http://agenabio.com/oncofocus-panel.	22	http
+5029	5565	* Catalogue of Somatic Mutations in Cancer: http.//www.sangar.ac.uk/qeneticsn/CGP/cosmic/.	22	http
+5123	8871	This information is entered into an MD Anderson calculator (http://www.mdanderson.org/breastcancer_RCB) to determine a score and category.	22	http
