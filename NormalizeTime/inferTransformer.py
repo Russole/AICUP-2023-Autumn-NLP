@@ -5,14 +5,16 @@ from tqdm import tqdm
 from utils import make_prediction
 from transformers import AutoTokenizer, AutoModelForCausalLM, PreTrainedTokenizer, AutoConfig, GPTNeoForCausalLM
 
-ROOT = '.\\NormalizeTime'
+MODEL_ROOT = '.\\NormalizeTime'
 SAVE_DIR = "saved_model"
 CHECKED_MODEL = "pythia-70m_TimeSeries_9"
 TOKENIZER = 'pythia-70m_TimeSeries_Tokenizer'
-SAVE_PATH = os.path.join(ROOT, SAVE_DIR)
+SAVE_PATH = os.path.join(MODEL_ROOT, SAVE_DIR)
 BATCH_SIZE = 128
+NER_OUTPUT_ROOT = ".\\upload_answer\\un_norm"
 NER_OUTPUT_FILE = "answer.txt"
-INFER_OUTPUT_FILE = "final_answer.txt"
+INFER_OUTPUT_ROOT = ".\\upload_answer\\norm"
+INFER_OUTPUT_FILE = "answer.txt"
 
 special_token_dict : dict = {
     "bos_token" : "<|endoftext|>",
@@ -40,7 +42,7 @@ config = AutoConfig.from_pretrained(MODEL_FILE,
 model : GPTNeoForCausalLM = AutoModelForCausalLM.from_pretrained(MODEL_FILE, 
                                                                  config = config).to(device)
 
-valid_data = pd.read_csv(os.path.join(ROOT, NER_OUTPUT_FILE), sep='\t', names=['fid', 'phi', 'st_idx', 'ed_idx', 'content', 'normalized'])
+valid_data = pd.read_csv(os.path.join(NER_OUTPUT_ROOT, NER_OUTPUT_FILE), sep='\t', names=['fid', 'phi', 'st_idx', 'ed_idx', 'content', 'normalized'])
 ORG_LEN = len(valid_data)
 input_data = valid_data[(valid_data['phi'] == "DATE") | (valid_data['phi'] == "TIME") | ((valid_data['phi'] == "DURATION"))]
 valid_data = valid_data.drop(input_data.index)
@@ -60,7 +62,7 @@ result_df = pd.concat([valid_data, input_data, set_data], ignore_index=True)
 
 assert len(result_df) == ORG_LEN, 'ERROR pls check'
 
-with open(os.path.join(ROOT, INFER_OUTPUT_FILE), 'w', encoding='utf-8')as f:
+with open(os.path.join(INFER_OUTPUT_ROOT, INFER_OUTPUT_FILE), 'w', encoding='utf-8')as f:
     for index, row in result_df.iterrows():
         if (pd.isna(row['normalized'])):
             result_str = f"{row['fid']}\t{row['phi']}\t{row['st_idx']}\t{row['ed_idx']}\t{row['content']}"
