@@ -14,7 +14,7 @@ conda activate AI_CUP
  
 ## 預測
 #### 子任務一
-#### [權重下載網址](https://drive.google.com/drive/folders/1ejU6aEcdF7dcGH85tKRLN4wNgHPahtS0?usp=sharing)  
+#### [權重下載網址]([https://drive.google.com/drive/folders/1ejU6aEcdF7dcGH85tKRLN4wNgHPahtS0?usp=sharing](https://drive.google.com/file/d/138w6WqmUpF9DkZcPv_d0enoVVOEOkFCh/view?usp=sharing))  
 請先下載權重並且放在./AI_CUP_3/infer_model資料夾中，連結有提供子任務一的模型權重  
 - debertav3-post-ver3-infer.ipynb，產生的Infer資料會存在 ./upload_answer/NER
 - Search_PHI.ipynb，找到的PHI資料會存在./Search_Phi_Result/FULL
