@@ -1,6 +1,8 @@
 import torch
 from torch.utils.data import Dataset
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, PreTrainedTokenizer, GPTNeoForCausalLM
+
+
 class GPTDataset(Dataset):
 
     def __init__(self, datas : list, tokenizer : AutoTokenizer, special_token_dict : dict) -> None:
@@ -35,3 +37,22 @@ class GPTDataset(Dataset):
         pad_batch_3 = torch.stack([torch.concat([t, torch.LongTensor([0] * (max_size - len(t)))]) for t in non_atn_msk])
         
         return pad_batch_1, pad_batch_2, pad_batch_3
+
+def generate_pattern(special_token_dict : dict, data : str):
+    return "{0}{1}{2}".format(special_token_dict["bos_token"], data, special_token_dict["sep_token"])
+
+def make_prediction(model : GPTNeoForCausalLM, tokenizer : PreTrainedTokenizer, datas : list[dict]) -> list[str]:
+    outputs = []
+    contents = list(map(lambda x : generate_pattern(special_token_dict=tokenizer.special_tokens_map, data=x), datas))
+    
+    inputs = tokenizer(contents, padding=True, return_tensors='pt').to(model.device)
+
+    output_args = model.generate(**inputs, max_new_tokens = 100)
+
+    output_text = tokenizer.batch_decode(output_args, skip_special_tokens=False)
+    output_text = list(map(lambda x : x.replace(tokenizer.bos_token, "").replace(tokenizer.pad_token, ""),output_text))
+    for j in range(len(datas)):
+        st_idx = output_text[j].find(tokenizer.sep_token)
+        end_idx = output_text[j].find(tokenizer.eos_token)
+        outputs.append(output_text[j][st_idx + len(tokenizer.eos_token) : end_idx])
+    return outputs

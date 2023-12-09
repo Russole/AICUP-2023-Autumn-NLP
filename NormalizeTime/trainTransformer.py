@@ -3,7 +3,7 @@ from torch.utils.data import DataLoader
 from transformers import AutoTokenizer, GPTNeoXForCausalLM, AutoConfig
 from tqdm import tqdm
 import pickle
-from torchdataset import GPTDataset
+from utils import GPTDataset
 import os
 import math
 
@@ -26,7 +26,7 @@ if MODEL_NAME is None and "/" in PRETRAIN_MODEL_NAME:
     MODEL_NAME = PRETRAIN_MODEL_NAME.split('/')[1]
 else:
     MODEL_NAME = PRETRAIN_MODEL_NAME
-MODEL_NAME = f"{MODEL_NAME}_SpecialTimeSeries"
+MODEL_NAME = f"{MODEL_NAME}_TimeSeries"
 TRAIN_ROOT = os.path.join(ROOT, "TrainingData")
 
 print(f"Current ROOT = {ROOT}")
