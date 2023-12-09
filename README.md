@@ -6,7 +6,9 @@ conda env create -f environment.yml
 conda activate AI_CUP  
 
 ## 資料  
-
+#### 子任務一
+#### [資料下載網址](https://drive.google.com/file/d/1bHMaHu4DJlKLL4uS9KBW9aDWngNlL2zz/view?usp=sharing) 
+請先下載資料並解壓縮，解壓縮後的檔案全部存放在./NER_Dataset資料夾中 
 ## 訓練 
 #### 子任務一
 運行debertav3-full-data-2-chatgpt-5-training.ipynb，會將./NER_Dataset中的資料讀取到模型進行訓練
