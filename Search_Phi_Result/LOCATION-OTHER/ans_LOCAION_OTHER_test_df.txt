@@ -1,0 +1,13 @@
+fid	idx	text	label	label_text
+2465	68	PO BOX 1061	13	PO BOX 1061
+5243	415	Please send copies of pathology to Dr SIA Perches, MITCHELL HOSPITAL Hospital Southern PO Box 1013 IRON KNOB 2870 and to Dr Walter (CULBURRA GP).	13	PO Box 1013
+file37972	493	&quot;UTERUS, PERITONEAL DISEASE, SPLEEN, OMENTUM, TUBES, OVARIES, SMALL BOWEL, GALLBLADDER&quot;.	13	&quot;UTERUS, PERITONEAL DISEASE, SPLEEN, OMENTUM, TUBES, OVARIES, SMALL BOWEL, GALLBLADDER&quot;
+file37972	5346	&quot;RIGHT DIAPHRAGM&quot;.	13	&quot;RIGHT DIAPHRAGM&quot;
+file41008	476	&quot;SENTINEL NODE BIOPSY LEFT BREAST&quot;.	13	&quot;SENTINEL NODE BIOPSY LEFT BREAST&quot;
+file41008	632	FROZEN SECTION REPORT:  &quot;Negative&quot;.  to Dr Ignacio at 4 pm by Dr K Gonder.	13	&quot;Negative&quot;
+file41008	722	&quot;WIDE LOCAL EXCISION LEFT BREAST&quot;.	13	&quot;WIDE LOCAL EXCISION LEFT BREAST&quot;
+file41008	2127	&quot;LEFT AXILLARY TISSUE LEFT BREAST&quot;.	13	&quot;LEFT AXILLARY TISSUE LEFT BREAST&quot;
+file41429	375	Specimen labelled &quot;RE-EXCISION MARGINS INFERIOR AND SUPERIOR RIGHT BREAST&quot; &quot;Short - superior, Medium - medial, Long - lateral.&quot;	13	&quot;RE-EXCISION MARGINS INFERIOR AND SUPERIOR RIGHT BREAST&quot;
+file41429	375	Specimen labelled &quot;RE-EXCISION MARGINS INFERIOR AND SUPERIOR RIGHT BREAST&quot; &quot;Short - superior, Medium - medial, Long - lateral.&quot;	13	&quot;Short - superior, Medium - medial, Long - lateral.&quot;
+file42064	385	&quot;RE-EXCISION OF ANTEROMEDIAL MARGIN, Short - superior, Medium - medial, Long - lateral&quot;	13	&quot;RE-EXCISION OF ANTEROMEDIAL MARGIN, Short - superior, Medium - medial, Long - lateral&quot;
+file50077	308	&quot;OMENTUM, RIGHT COLON, SPLEEN, GALLBLADDER, RECTUM, PERITONEAL DISEASE&quot;.	13	&quot;OMENTUM, RIGHT COLON, SPLEEN, GALLBLADDER, RECTUM, PERITONEAL DISEASE&quot;

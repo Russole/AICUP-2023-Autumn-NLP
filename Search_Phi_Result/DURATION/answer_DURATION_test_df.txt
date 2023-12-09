@@ -1,0 +1,38 @@
+fid	idx	text	label	label_text
+1198	377	Also ? met (gastric ca 8 years ago).	17	8 years
+1482	328	69 yr old woman with previous diagnosis of bowel cancer in 2056.	17	69 yr
+1633	324	2 months of progressive decreasing visual acuity.	17	2 months
+1633	375	18 months hypocortisolaemia   Suprasellar lesion.	17	18 months
+2080	526	69 year old female with adnexal mass for TAH, BSO.	17	69 year
+2088	350	50 yr pkt hx.	17	50 yr
+2115	18875	62 year old male undergoing resection of a right retroperitoneal soft tissue tumour along with right kidney and adrenal.	17	62 year
+2408	378	68 years old man.	17	68 years
+2418	127	Bg:  Wilms tumour 15 yrs ago.	17	15 yrs
+2418	159	Additional history obtained: R nephrectomy 15 yrs ago for Wilms.	17	15 yrs
+5126	290	79 year old woman with recurrent vulval melanoma.	17	79 year
+5143	363	Additional history from Dr BAILEY Bacayo, testicular tumour forty years ago.	17	forty years
+5178	85	64 year old female with well differentiated mesothelioma.	17	64 year
+5349	396	Pancreatic cancer, Whipple's now diabetic, started Gemcitabine 6 months ago, finished 3 weeks ago.	17	3 weeks
+5349	396	Pancreatic cancer, Whipple's now diabetic, started Gemcitabine 6 months ago, finished 3 weeks ago.	17	6 months
+file31397	155	52 year old with excision of ? sarcoma with small bowel involvement.	17	52 year
+file31761	145	69 year old female increasing size pancreatic cyst.	17	69 year
+file32372	139	72 year old male imaging for unintentional weight loss ? pancreatic head/duodenal mass.	17	72 year
+file33392	141	77 year old female presented to Orange base hospital with pancreatitis.	17	77 year
+file33418	146	53 year old with history of endometrial cancer stage 3, had chemo, hypertension and diabetes.	17	53 year
+file34012	143	79 year old male segment 7/8 lesion - hypervascular on CT.	17	79 year
+file34051	178	84 year old woman.	17	84 year
+file34471	134	75 year old.	17	75 year
+file43336	142	61 year old female oesophagectomy for adenocarcinoma.	17	61 year
+file43336	197	6 weeks post neoadjuvant chemoradiotherapy.	17	6 weeks
+file43535	147	72 year old female pancreatic head mass with portal vein involvement on imaging.	17	72 year
+file43608	192	64 year old male previous head and neck resection for SCC.	17	64 year
+file44766	136	78 year old with low grade serous ovarian cancer for cytological reduction of disease via laparotomy.	17	78 year
+file44891	189	Frozen section for 73 year old female TAH BSO.	17	73 year
+file44891	237	73 year old female with proven endometrial cancer.	17	73 year
+file45616	185	52 year old with large complex ovarian mass.	17	52 year
+file45635	136	50 year old female with ? complex ovarian cyst.	17	50 year
+file46127	306	Weight gain, 24kg over last three months prior to presentation.	17	three months
+file46435	136	60 year old female with peritoneal deposits and pelvic mass causing constriction of sigmoid colon.	17	60 year
+file47644	157	47 year old woman with left sided ovarian mass.	17	47 year
+file48526	145	60 year old female with pancreatic tumour in tail of pancreas.	17	60 year
+file56166	274	Previous radiotherapy 19 years ago	17	19 years

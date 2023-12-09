@@ -1,0 +1,5 @@
+fid	idx	text	label	label_text
+5088	14	Helde, ISRAEL	11	ISRAEL
+5343	13	Laos, Raya	11	Laos
+5372	37	Nyswonger, Israel	11	Israel
+file60224	129	Pathology Report51R20681,51R20681 (51R2068129) Coslow, ISRAEL	11	ISRAEL

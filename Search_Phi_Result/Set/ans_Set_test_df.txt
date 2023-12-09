@@ -1,0 +1,5 @@
+fid	idx	text	label	label_text
+2070	2666	The sample was tested twice with the appropriate controls and wasfound to be unmethylated (4.5%) at the MGMT promoter region.	18	twice
+2077	2401	The sample was tested twice with the appropriate controls and was found to be unmethylated (2.5%) at the MGMT promoter region.	18	twice
+2387	3929	The sample was tested twice with the appropriate controls and was found to be methylated (33%) at the MGMT promoter region.	18	twice
+file32052	4108	Number found:   11 (specimen examined twice for lymph nodes)	18	twice
