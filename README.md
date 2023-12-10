@@ -15,6 +15,9 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 #### 子任務一
 運行debertav3-full-data-2-chatgpt-5-training.ipynb，會將./NER_Dataset中的資料讀取到模型進行訓練
 #### 子任務二
+請輸入以下指令
+- python ./NormalizeTime/mockNomalizedTimeData.py
+- python ./NormalizeTime/trainTransformer.py
  
 ## 預測
 #### 子任務一
