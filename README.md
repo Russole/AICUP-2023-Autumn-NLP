@@ -2,8 +2,8 @@
 ### 隊伍:Team_4706
 ## 運行環境  
 ### 使用 Anaconda 建立環境 :
-conda env create -f environment.yml  
-conda activate AI_CUP  
+conda env create -f environments.yml  
+conda activate AI_CUP_Fall  
 
 ## 資料  
 #### 子任務一
