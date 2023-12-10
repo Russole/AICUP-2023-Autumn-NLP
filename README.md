@@ -33,5 +33,5 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 請先下載權重並解壓縮，解壓縮後的檔案全部存放在./NormalizeTime/saved_model/pythia-70m_TimeSeries_9資料夾中
 
 連結有提供子任務二的模型權重  
-請輸入以下指令
+請輸入以下指令，並存放在./upload_answer/norm，此為最終子任務二的結果
 - python ./NormalizeTime/inferTransformer.py
