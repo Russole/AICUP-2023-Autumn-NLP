@@ -15,7 +15,7 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 #### 子任務一
 運行debertav3-full-data-2-chatgpt-5-training.ipynb，會將./NER_Dataset中的資料讀取到模型進行訓練
 #### 子任務二
-請輸入以下指令
+請依序輸入以下指令
 - python ./NormalizeTime/mockNomalizedTimeData.py
 - python ./NormalizeTime/trainTransformer.py
  
@@ -27,3 +27,6 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 - Search_PHI.ipynb，找到的PHI資料會存在./Search_Phi_Result/FULL
 - Ensemble_answer.ipynb，會將上述2個程式的結果連接在一起，並存放在./upload_answer/un_norm，此為最終子任務一的結果
 #### 子任務二
+#### [權重下載網址](https://huggingface.co/WenTee/NormalizeTimePythia-70m)
+請輸入以下指令
+- python ./NormalizeTime/inferTransformer.py
