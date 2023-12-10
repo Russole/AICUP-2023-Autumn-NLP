@@ -4,6 +4,8 @@
 ### 使用 Anaconda 建立環境 :
 conda env create -f environments.yml  
 conda activate AI_CUP_Fall  
+### 安裝pytorch:
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
 ## 資料  
 #### 子任務一
