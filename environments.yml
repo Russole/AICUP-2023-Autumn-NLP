@@ -1,4 +1,4 @@
-name: AI_CUP_py310
+name: AI_CUP_Fall
 channels:
   - conda-forge
   - defaults
@@ -96,13 +96,10 @@ dependencies:
     - sympy==1.12
     - threadpoolctl==3.2.0
     - tokenizers==0.13.3
-    - torch==2.1.1+cu121
-    - torchaudio==2.1.1+cu121
-    - torchvision==0.16.1+cu121
     - tqdm==4.66.1
     - transformers==4.29.2
     - tzdata==2023.3
     - urllib3==1.26.13
     - xxhash==3.4.1
     - yarl==1.9.4
-prefix: C:\Users\Lab000\anaconda3\envs\AI_CUP_py310
+prefix: C:\Users\Lab000\anaconda3\envs\AI_CUP_Fall
