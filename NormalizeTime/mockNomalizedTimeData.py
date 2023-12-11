@@ -6,6 +6,9 @@ from mockutils import *
 
 ROOT = '.\\NormalizeTime\\TrainingData'
 
+if not os.path.exists(ROOT):
+    os.makedirs(ROOT)
+
 special_token_dict : dict = {
     "bos_token" : "<|endoftext|>",
     "sep_token" : "<|SEP|>", 
