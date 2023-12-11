@@ -1,0 +1,8 @@
+{
+  "_from_model_config": true,
+  "bos_token_id": 0,
+  "eos_token_id": 50278,
+  "max_new_tokens": 100,
+  "pad_token_id": 50279,
+  "transformers_version": "4.35.0"
+}
