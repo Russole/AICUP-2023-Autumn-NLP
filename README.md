@@ -17,7 +17,7 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 #### 子任務二
 請依序輸入以下指令，執行如下檔案
 - python ./NormalizeTime/mockNomalizedTimeData.py
-- python ./NormalizeTime/trainTransformer.py
+- 先在./NormalizeTime創建TrainingData資料夾，然後 python ./NormalizeTime/trainTransformer.py
  
 ## 預測
 #### 子任務一
