@@ -4,6 +4,6 @@
 *DATASET
 
 # 程式資料
-NormalizeTime/TrainingData/*
+NormalizeTime/TrainingData/*.data
 NormalizeTime/*_model/*
 NormalizeTime/__*__
