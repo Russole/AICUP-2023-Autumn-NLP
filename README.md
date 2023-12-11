@@ -30,7 +30,7 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 - Ensemble_answer.ipynb，會將上述2個程式的結果連接在一起，並存放在./upload_answer/un_norm，此為最終子任務一的結果
 #### 子任務二
 #### [權重下載網址](https://huggingface.co/WenTee/NormalizeTimePythia-70m)
-請先下載權重並解壓縮，解壓縮後的檔案存放在./NormalizeTime/saved_model/pythia-70m_TimeSeries_9資料夾中
+請先下載權重model.safetensors，將檔案存放在./NormalizeTime/saved_model/pythia-70m_TimeSeries_9資料夾中
 
 連結有提供子任務二的模型權重  
 請輸入以下指令，運算結果會存放在./upload_answer/norm，此為最終子任務二的結果
