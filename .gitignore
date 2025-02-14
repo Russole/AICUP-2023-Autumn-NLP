@@ -2,7 +2,8 @@
 /*env 
 # 資料檔案
 *DATASET
-
+# 模型
+AI_CUP_3/infer_model/
 # 程式資料
 NormalizeTime/TrainingData/*.data
 NormalizeTime/*_model/*
